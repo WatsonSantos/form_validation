@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2504/2504724.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validação de Formulário</title>
+</head>
+<body>
+
+    <form id="form" onsubmit="onSubmit()"action="" >
+        <div class="form-title">
+            <h3>Creat Accounant</h3>
+        </div>
+        <div class="form form-name">
+            <label>Username</label>
+            <input type="text" id="username">
+            <span class="username-span"></span>
+        </div>
+        <div class="form form-email">
+            <label>Email</label>
+            <input type="email" id="email">
+            <span class="email-span"></span>
+        </div>
+        <div class="form form-pass">
+            <label>Password</label>
+            <input type="password" id="password">
+            <span class="pass-span"></span>
+        </div>
+        <div class="form form-pass-check">
+            <label>Passwor Check</label>
+            <input type="password" id="pass-check">
+            <span class="pass-check-span"></span>
+        </div>
+        <button   >Submit</button>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
